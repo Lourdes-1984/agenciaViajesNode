@@ -1,4 +1,30 @@
 extends ./layout/index
 
-block contenido 
-    p Nosotros
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg" , alt="imagen sobre nosotros" , class="img-fluid")
+            .col-md-7 
+                h1= pagina
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus magna risus, elementum et nisl id, consequat hendrerit lorem. Cras iaculis auctor nulla. Cras imperdiet, neque sit amet eleifend euismod, nulla ipsum placerat magna, egestas molestie neque nisi quis nisi. Integer fermentum facilisis tellus sit amet molestie. 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus magna risus, elementum et nisl id, consequat hendrerit lorem. Cras iaculis auctor nulla. Cras imperdiet, neque sit amet eleifend euismod, nulla ipsum placerat magna, egestas molestie neque nisi quis nisi. Integer fermentum facilisis tellus sit amet molestie.  
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus magna risus, elementum et nisl id, consequat hendrerit lorem. Cras iaculis auctor nulla. Cras imperdiet, neque sit amet eleifend euismod, nulla ipsum placerat magna, egestas molestie neque nisi quis nisi. Integer fermentum 
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row    
+                .col-md-4    
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" , class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p In ac libero eget tellus malesuada laoreet. Sed consequat augue lorem, eget consectetur ligula feugiat sed. Maecenas ante tortor, hendrerit ut nunc sit amet, tristique elementum tellus. Aenean risus risus, ultricies ac iaculis eget, dignissim quis du 
+
+                .col-md-4    
+                    img(src="img/icono_destinos.svg", alt="icono destinos" , class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p In ac libero eget tellus malesuada laoreet. Sed consequat augue lorem, eget consectetur ligula feugiat sed. Maecenas ante tortor, hendrerit ut nunc sit amet, tristique elementum tellus. Aenean risus risus, ultricies ac iaculis eget, dignissim quis du
+
+                .col-md-4    
+                    img(src="img/icono_precios.svg", alt="icono precios" , class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p In ac libero eget tellus malesuada laoreet. Sed consequat augue lorem, eget consectetur ligula feugiat sed. Maecenas ante tortor, hendrerit ut nunc sit amet, tristique elementum tellus. Aenean risus risus, ultricies ac iaculis eget, dignissim quis du       
