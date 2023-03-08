@@ -16,7 +16,7 @@ const paginaViajes = async (req, res) => {
     const viajes = await Viaje.findAll()
     console.log(viajes);
     res.render('viajes' , {
-        pagina: 'Viajes',
+        pagina: ' Proximos Viajes',
         viajes
     })
 }
