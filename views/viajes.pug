@@ -1,0 +1,11 @@
+extends  ./layout/index
+
+block contenido 
+    h1 #{pagina}
+    main.container.mt-5 
+        .row.proximos-viajes
+            each viaje in viajes 
+                .col-md-6.col-lg-4.mb-4
+                
+                    h2=viaje.titulo    
+        
